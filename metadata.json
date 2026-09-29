@@ -1,0 +1,10 @@
+{
+  "name": "Remix DeskMate: AI Office Health \u0026 Posture",
+  "description": "A calm, intelligent workplace wellness companion for desk workers to improve posture, take micro-movement breaks, and build healthy work habits.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#064E3B"/>
+  <circle cx="256" cy="256" r="180" fill="#047857" opacity="0.4"/>
+  <!-- Posture / Human alignment leaf motif -->
+  <path d="M256 110 C 230 110, 210 130, 210 156 C 210 182, 230 202, 256 202 C 282 202, 302 182, 302 156 C 302 130, 282 110, 256 110 Z" fill="#A7F3D0"/>
+  <!-- Smooth aligned spine arc with breathing energy -->
+  <path d="M256 220 C 256 260, 275 285, 275 325 C 275 365, 245 390, 245 420" stroke="#34D399" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <!-- Gentle ergonomic shoulder line -->
+  <path d="M180 250 Q 256 230 332 250" stroke="#6EE7B7" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <!-- Calming pulse halo rings -->
+  <circle cx="256" cy="156" r="64" stroke="#A7F3D0" stroke-width="6" stroke-dasharray="8 8" opacity="0.6"/>
+  <path d="M150 370 C 180 340, 230 340, 256 360 C 282 340, 332 340, 362 370" stroke="#10B981" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.8"/>
+</svg>

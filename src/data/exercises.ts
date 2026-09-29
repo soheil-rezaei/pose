@@ -1,0 +1,300 @@
+import { Exercise } from '../types';
+
+export const EXERCISES: Exercise[] = [
+  // --- NECK ---
+  {
+    id: 'chin-tuck',
+    name: 'Chin Tuck Alignment',
+    category: 'Neck',
+    durationSeconds: 30,
+    difficulty: 'Gentle',
+    targetArea: 'Deep neck flexors & cervical spine',
+    seated: true,
+    illustrationType: 'chin-tuck',
+    safetyNote: 'Keep your gaze straight ahead; do not tilt your head down toward your chest.',
+    instructions: [
+      'Sit tall with your shoulders relaxed and back against your chair.',
+      'Look straight ahead at eye level.',
+      'Gently draw your chin straight back, as if making a subtle double chin.',
+      'Hold the gentle tension at the back of your neck for 3 seconds.',
+      'Release smoothly to neutral and repeat 5 times.',
+    ],
+  },
+  {
+    id: 'neck-side-tilt',
+    name: 'Lateral Neck Release',
+    category: 'Neck',
+    durationSeconds: 40,
+    difficulty: 'Gentle',
+    targetArea: 'Upper trapezius & scalenes',
+    seated: true,
+    illustrationType: 'neck-tilt',
+    safetyNote: 'Never force the stretch; let gravity and gentle breathing guide the range.',
+    instructions: [
+      'Lower your right ear toward your right shoulder without lifting the shoulder.',
+      'Rest your right hand lightly over your head for gentle guidance (do not pull).',
+      'Take 2 calm deep breaths, feeling the gentle release on the left side of your neck.',
+      'Slowly return to center and switch to the left side.',
+      'Repeat once more on each side.',
+    ],
+  },
+  {
+    id: 'neck-rotation',
+    name: 'Slow Neck Rotation',
+    category: 'Neck',
+    durationSeconds: 35,
+    difficulty: 'Gentle',
+    targetArea: 'Cervical mobility & suboccipitals',
+    seated: true,
+    illustrationType: 'neck-rotation',
+    safetyNote: 'Move slowly and smoothly. Stop if you feel any dizziness or pinch.',
+    instructions: [
+      'Sit upright and drop your shoulders away from your ears.',
+      'Slowly rotate your head toward the right shoulder until comfortable.',
+      'Pause for a soft 2-second breath.',
+      'Return smoothly through center and turn toward the left shoulder.',
+      'Repeat 4 times with rhythmic, calm breathing.',
+    ],
+  },
+
+  // --- SHOULDERS ---
+  {
+    id: 'shoulder-rolls',
+    name: 'Rhythmic Shoulder Rolls',
+    category: 'Shoulders',
+    durationSeconds: 30,
+    difficulty: 'Gentle',
+    targetArea: 'Trapezius, deltoids & upper back',
+    seated: true,
+    illustrationType: 'shoulder-roll',
+    instructions: [
+      'Sit or stand with arms resting naturally at your sides.',
+      'Inhale deeply and shrug your shoulders up toward your ears.',
+      'Roll them backward, squeezing your shoulder blades together gently.',
+      'Exhale and slide them down and away.',
+      'Perform 5 circles backward, then 5 gentle circles forward.',
+    ],
+  },
+  {
+    id: 'chest-opener',
+    name: 'Seated Chest Opener',
+    category: 'Shoulders',
+    durationSeconds: 45,
+    difficulty: 'Gentle',
+    targetArea: 'Pectoralis major, anterior deltoids',
+    seated: true,
+    illustrationType: 'chest-opener',
+    safetyNote: 'If reaching behind is tight, place hands on your hips and draw elbows back.',
+    instructions: [
+      'Scoot slightly forward on your chair seat.',
+      'Interlace your fingers behind your lower back or hold the back of your chair.',
+      'Roll your shoulders back and gently lift your chest toward the ceiling.',
+      'Breathe deeply into your ribs, feeling the chest expand.',
+      'Hold for 20 seconds, release, and repeat once.',
+    ],
+  },
+
+  // --- UPPER BACK ---
+  {
+    id: 'seated-cat-cow',
+    name: 'Seated Cat-Cow Flow',
+    category: 'Upper back',
+    durationSeconds: 45,
+    difficulty: 'Gentle',
+    targetArea: 'Thoracic spine & spine mobility',
+    seated: true,
+    illustrationType: 'cat-cow',
+    instructions: [
+      'Place both feet flat on the floor with hands resting on your knees.',
+      'Inhale: Arch your spine, lift your chest, and look slightly upward (Cow).',
+      'Exhale: Round your back, tuck your chin gently, and open shoulder blades (Cat).',
+      'Continue moving smoothly with your breath for 5 full cycles.',
+    ],
+  },
+
+  // --- LOWER BACK ---
+  {
+    id: 'seated-spinal-twist',
+    name: 'Gentle Chair Spinal Twist',
+    category: 'Lower back',
+    durationSeconds: 40,
+    difficulty: 'Gentle',
+    targetArea: 'Lumbar & thoracic rotators',
+    seated: true,
+    illustrationType: 'spinal-twist',
+    safetyNote: 'Initiate the twist from your ribs, not by wrenching your lower back.',
+    instructions: [
+      'Sit tall with knees and hips square pointing forward.',
+      'Place your right hand on the outside of your left thigh or chair armrest.',
+      'Inhale to lengthen your spine, exhale to gently rotate your torso left.',
+      'Hold for 3 deep breaths.',
+      'Return to center and repeat on the opposite side.',
+    ],
+  },
+
+  // --- WRISTS & HANDS ---
+  {
+    id: 'wrist-flexor-extensor',
+    name: 'Desk Wrist & Finger Relief',
+    category: 'Wrists',
+    durationSeconds: 30,
+    difficulty: 'Gentle',
+    targetArea: 'Forearm flexors, extensors & carpal tunnel',
+    seated: true,
+    illustrationType: 'wrist-stretch',
+    safetyNote: 'Apply gentle pressure; you should feel a mild stretch, not joint strain.',
+    instructions: [
+      'Extend your right arm forward with palm facing up and elbow soft.',
+      'Use your left hand to gently pull your right fingers down and toward you.',
+      'Hold for 10 seconds.',
+      'Flip your palm down and press the back of your hand gently for 10 seconds.',
+      'Shake both hands out softly, then switch to the left arm.',
+    ],
+  },
+
+  // --- HIPS ---
+  {
+    id: 'seated-figure-four',
+    name: 'Seated Figure-Four Hip Stretch',
+    category: 'Hips',
+    durationSeconds: 50,
+    difficulty: 'Moderate',
+    targetArea: 'Piriformis, outer hips & glutes',
+    seated: true,
+    illustrationType: 'figure-four',
+    safetyNote: 'Flex the ankle of your lifted leg to protect your knee.',
+    instructions: [
+      'Cross your right ankle over your left knee, creating a number 4 shape.',
+      'Keep your back flat and sit up tall.',
+      'Gently lean your chest forward from the hips until you feel a pleasant stretch in your outer hip.',
+      'Hold for 20 seconds with steady breathing.',
+      'Gently switch to the opposite side.',
+    ],
+  },
+
+  // --- LEGS & CIRCULATION ---
+  {
+    id: 'calf-raises',
+    name: 'Standing Calf Pumps & Lift',
+    category: 'Legs',
+    durationSeconds: 40,
+    difficulty: 'Gentle',
+    targetArea: 'Calves, soleus & venous return blood flow',
+    seated: false,
+    illustrationType: 'calf-raise',
+    instructions: [
+      'Stand behind your desk or chair, lightly holding the top for balance.',
+      'Slowly rise onto the balls of both feet, lifting your heels high.',
+      'Pause for 1 second at the top to activate your calf pump.',
+      'Lower your heels back to the floor with control.',
+      'Repeat 15 times to stimulate lower leg circulation after prolonged sitting.',
+    ],
+  },
+
+  // --- FULL BODY ---
+  {
+    id: 'overhead-sky-reach',
+    name: 'Full Standing Overhead Reach',
+    category: 'Full body',
+    durationSeconds: 35,
+    difficulty: 'Gentle',
+    targetArea: 'Latissimus dorsi, spine decompressed, intercostals',
+    seated: false,
+    illustrationType: 'overhead-reach',
+    instructions: [
+      'Stand tall with feet hip-width apart.',
+      'Inhale deeply as you sweep both arms out and up toward the sky.',
+      'Interlace fingers, flip palms upward, and lengthen through your entire spine.',
+      'Take a small gentle lean to the right, then center, then left.',
+      'Exhale and sweep arms down, feeling the rush of oxygen.',
+    ],
+  },
+
+  // --- EYE RELAXATION ---
+  {
+    id: 'eye-202020',
+    name: '20-20-20 Eye Horizon Reset',
+    category: 'Eye relaxation',
+    durationSeconds: 30,
+    difficulty: 'Gentle',
+    targetArea: 'Ciliary eye muscles & digital visual fatigue',
+    seated: true,
+    illustrationType: 'eye-202020',
+    instructions: [
+      'Look away from your computer, phone, or tablet screen.',
+      'Find an object at least 20 feet away (out a window or down the hallway).',
+      'Gently focus on that distant object for 20 continuous seconds.',
+      'Blink slowly 5 times to naturally lubricate the cornea.',
+      'Rub your palms together until warm and gently cup them over your closed eyes for 5 seconds.',
+    ],
+  },
+
+  // --- BREATHING ---
+  {
+    id: 'box-breathing',
+    name: 'Box Breathing (4-4-4-4)',
+    category: 'Breathing',
+    durationSeconds: 60,
+    difficulty: 'Gentle',
+    targetArea: 'Parasympathetic nervous system & stress down-regulation',
+    seated: true,
+    illustrationType: 'box-breathing',
+    instructions: [
+      'Sit comfortably with both feet grounded and hands relaxed on your lap.',
+      'Inhale slowly through your nose for 4 counts.',
+      'Hold the gentle breath at the top for 4 counts.',
+      'Exhale smoothly through your mouth for 4 counts.',
+      'Hold empty with quiet calm for 4 counts.',
+      'Complete 3 smooth rounds.',
+    ],
+  },
+  {
+    id: 'standing-posture-reset',
+    name: 'Mountain Desk Reset',
+    category: 'Full body',
+    durationSeconds: 30,
+    difficulty: 'Gentle',
+    targetArea: 'Postural balance & full spine alignment',
+    seated: false,
+    illustrationType: 'standing-reset',
+    instructions: [
+      'Stand up from your chair with feet directly under your hip bones.',
+      'Ground evenly through all four corners of both feet.',
+      'Tuck pelvis subtly so your lower back is relaxed, not arched.',
+      'Broaden across your collarbones and let hands fall naturally with thumbs forward.',
+      'Imagine a light thread lifting the crown of your head tall into the ceiling.',
+    ],
+  },
+];
+
+// Curated 2-minute default micro-break routines
+export const PRESET_ROUTINES = {
+  quickReset: {
+    id: 'quick-reset',
+    name: '2-Minute Desk Reset',
+    description: 'The golden combination for quick neck, shoulder, and spinal release.',
+    totalSeconds: 120,
+    exerciseIds: ['chin-tuck', 'shoulder-rolls', 'seated-cat-cow', 'eye-202020'],
+  },
+  neckAndShoulders: {
+    id: 'neck-shoulders',
+    name: 'Neck & Shoulder Relief',
+    description: 'Targeted relief for upper-body screen stiffness.',
+    totalSeconds: 120,
+    exerciseIds: ['neck-side-tilt', 'chin-tuck', 'chest-opener', 'shoulder-rolls'],
+  },
+  standingEnergy: {
+    id: 'standing-energy',
+    name: 'Standing Energy Booster',
+    description: 'Break up prolonged sitting and wake up circulation.',
+    totalSeconds: 120,
+    exerciseIds: ['standing-posture-reset', 'overhead-sky-reach', 'calf-raises'],
+  },
+  mindfulBreather: {
+    id: 'mindful-breather',
+    name: 'Calm & Eye Reset',
+    description: 'Decompress digital strain and reset nervous tension.',
+    totalSeconds: 90,
+    exerciseIds: ['eye-202020', 'box-breathing'],
+  },
+};
